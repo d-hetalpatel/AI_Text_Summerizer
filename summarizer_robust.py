@@ -4,8 +4,8 @@ import textstat
 import torch
 
 print("⏳ Loading summarization model... please wait.")
-tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
-model = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
+tokenizer = BartTokenizer.from_pretrained("sshleifer/distilbart-cnn-12-6")#("facebook/bart-large-cnn")
+model = BartForConditionalGeneration.from_pretrained("sshleifer/distilbart-cnn-12-6")#("facebook/bart-large-cnn")
 print("✅ Model loaded successfully!")
 
 MAX_TOKENS = 1024  # BART-large max tokens
@@ -64,3 +64,4 @@ if __name__ == "__main__":
     result = summarize_text(sample_text)
     print("\n🧠 Summary:\n", result["summary"])
     print(f"\n📊 Original length: {result['original_length']} | Summary length: {result['summary_length']} | Readability: {result['readability']}")
+
