@@ -1,6 +1,9 @@
 streamlit==1.50.0
 requests
-textstat==0.7.10
+transformers==4.39.3
+torch==2.5.1
+textstat==0.7.3
+
 
 
 
