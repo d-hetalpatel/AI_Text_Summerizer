@@ -14,10 +14,10 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose Streamlit port
-EXPOSE 7860
+EXPOSE 8501
 
 # Set Streamlit environment variables
-ENV STREAMLIT_SERVER_PORT=7860
+ENV STREAMLIT_SERVER_PORT=8501
 ENV STREAMLIT_SERVER_ADDRESS=0.0.0.0
 
 # Disable telemetry and usage stats (optional)
