@@ -4,4 +4,8 @@ torch
 textstat==0.7.3
 huggingface-hub==0.35.3
 tokenizers==0.22.1
+requests
+textstat==0.7.10
+
+
 
