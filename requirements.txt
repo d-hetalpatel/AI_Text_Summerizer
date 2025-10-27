@@ -1,6 +1,6 @@
 streamlit==1.50.0
-transformers==4.44.2
 tokenizers==0.19.1
+transformers==4.57.0
 torch==2.8.0
 textstat==0.7.10
 
