@@ -18,6 +18,10 @@ Built with **Streamlit** and **Hugging Face Transformers**.
 - Downloadable summaries
 - Clean, modern web interface
 
+## 🌐 Live Demo
+🔗 [Click here to try the app on Hugging Face Spaces](https://d-hetalpatel-textmind.hf.space)
+
+
 ## 🧩 Tech Stack
 - Python
 - Hugging Face Transformers
