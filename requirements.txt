@@ -1,6 +1,7 @@
 streamlit==1.50.0
 transformers==4.57.0
-torch==2.8.0
+torch
 textstat==0.7.3
 huggingface-hub==0.35.3
 tokenizers==0.22.1
+
